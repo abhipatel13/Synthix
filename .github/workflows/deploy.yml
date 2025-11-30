@@ -55,7 +55,6 @@ jobs:
           echo "DEPLOYMENT_URL=${URL}" >> $GITHUB_ENV
           echo "::notice::🌐 Website deployed to: ${URL}"
           echo "::notice::📝 If you don't see the site, enable GitHub Pages in Settings > Pages"
-          echo "::set-output name=url::${URL}"
 
       - name: Summary
         if: always()
