@@ -55,10 +55,10 @@
   font-size: 2.25rem;
   width: 155px;
   font-weight: bold;
-  color:#e53b2a;
+  color: $color-primary;
 }
 .navbar-brand:hover{
-  color:#e53b2a;
+  color: $color-primary;
 }
 
 @include media-breakpoint-down-sm {

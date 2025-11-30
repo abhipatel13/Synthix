@@ -60,6 +60,71 @@ content_blocks:
     description: "Impressive website design and maintenance for solana.keyglowmax.com. Developed using Next.js and styled with Tailwind CSS, it showcases a seamless blend of creativity and technology. Elevating user experience with efficient design, this platform reflects cutting-edge web development and design skills."
     reversed: false
 
+  - _bookshop_name: global/header
+    title: "Services We "
+    title_suffix: Provide
+    description: We offer comprehensive web development, full-stack solutions, and IT services to help your business succeed. Our expert team delivers high-quality solutions tailored to your needs.
+    remove_top_padding: false
+
+  - _bookshop_name: global/skills
+    title: "Our Service "
+    title_suffix: Offerings
+    description: "We provide end-to-end solutions across all aspects of web and application development. Here's a glimpse of our comprehensive service categories:"
+    skills:
+      - category_name: Web Development Services
+        subcategories:
+          - subcategory_name: Frontend Development
+            skills:
+              - Custom website design and development
+              - Responsive web applications
+              - Single Page Applications (SPA)
+              - UI/UX implementation
+          - subcategory_name: Backend Development
+            skills:
+              - Server-side application development
+              - API development and integration
+              - Database design and optimization
+              - Cloud infrastructure setup
+
+      - category_name: Mobile App Development
+        subcategories:
+          - subcategory_name: Native Mobile Apps
+            skills:
+              - iOS app development
+              - Android app development
+              - App Store optimization
+          - subcategory_name: Cross-Platform Solutions
+            skills:
+              - React Native development
+              - Flutter app development
+              - Mobile app maintenance
+
+      - category_name: E-Commerce Solutions
+        subcategories:
+          - subcategory_name: E-Commerce Platforms
+            skills:
+              - Shopify store development
+              - WooCommerce customization
+              - Custom e-commerce solutions
+          - subcategory_name: E-Commerce Features
+            skills:
+              - Payment gateway integration
+              - Inventory management systems
+              - Order processing automation
+
+      - category_name: DevOps & Cloud Services
+        subcategories:
+          - subcategory_name: Deployment Services
+            skills:
+              - Application deployment and hosting
+              - Server setup and configuration
+              - Load balancing and scaling
+          - subcategory_name: Cloud Solutions
+            skills:
+              - AWS cloud services setup
+              - Google Cloud Platform deployment
+              - Vercel/Netlify hosting
+
   - _bookshop_name: global/testimonial
     title: Build relationships that
     title_suffix: last

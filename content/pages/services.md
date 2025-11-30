@@ -24,63 +24,118 @@ content_blocks:
     description: Synthix is the most complete solution to create beautiful Web app and Mobile App with UI/UX Services at the best price. We Also offer Graphics Design, Social Media Advertising/Marketing and Search Engine Optimization Services with affordable rates.
 
   - _bookshop_name: global/feature
-    title: Web Development Service
+    title: Web Development Services
     description: |
-      Elevate your online presence with our Web Development Service. Our expert team is dedicated to bringing your vision to life through a range of specialized features and services. Here's what sets our Web Development Service apart:
+      Elevate your online presence with our comprehensive Web Development Services. We create custom, scalable, and high-performance web applications tailored to your business needs.
 
-      **Key Features:**
-      - Custom Website Design: Tailored to reflect your unique brand identity.
-      - Responsive Web Development: Ensuring a seamless user experience across devices.
-      - Content Management System (CMS) Integration: Empowering you to easily manage and update your content.
-      - E-commerce Functionality: Building robust online stores for your products or services.
-      - SEO Optimization: Enhancing your online visibility and search engine rankings.
+      **What We Offer:**
+      - **Custom Website Development**: Tailored solutions that reflect your unique brand identity
+      - **Responsive Web Applications**: Seamless user experience across all devices and screen sizes
+      - **E-commerce Solutions**: Robust online stores with secure payment integrations
+      - **CMS Integration**: Easy-to-manage content management systems
+      - **API Development**: RESTful and GraphQL APIs for seamless integrations
+      - **Performance Optimization**: Fast-loading, SEO-optimized websites
 
-      **Benefits:**
-      - Enhanced User Experience: Delivering a user-friendly interface for visitors.
-      - Increased Online Visibility: Improving search engine rankings for greater reach.
-      - Scalability for Future Growth: Adapting to your business needs as it expands.
-
-      **Scope of Service:**
-      - Our Web Development service covers the entire development lifecycle, from initial consultation to ongoing maintenance and updates.
-
-      **Service Components:**
-      - Frontend Development: Using modern technologies such as HTML5, CSS3, and JavaScript frameworks (e.g., React, Angular, Vue.js) to create an engaging user interface.
-      - Backend Development: Leveraging server-side technologies like Node.js, Python (Django or Flask), Ruby on Rails, PHP, and CMS-specific technologies (WordPress, Shopify) to build a robust and scalable backend infrastructure.
-      - Database Integration: Implementing database solutions such as MySQL, PostgreSQL, MongoDB, or Firebase for efficient data storage and retrieval.
-      - API Development: Crafting secure and efficient APIs using RESTful or GraphQL protocols, ensuring seamless communication between different components.
-      - WordPress Development: Specializing in creating, customizing, and optimizing websites using the WordPress platform, including theme development, plugin integration, and performance optimization.
-      - Shopify Development: Building and customizing e-commerce websites using the Shopify platform, ensuring a seamless and user-friendly online shopping experience.
-
-      **Technical Requirements:**
-      - We suggest best Web hosting platform
-      - We guide you for Domain registration
-
-      **User Support:**
-      - We offer continuous support through various channels, including email and a dedicated support portal.
-
-      **Security Measures:**
-      - Our development practices adhere to industry standards for web security, ensuring data integrity and user privacy.
-
-      **Cost and Pricing:**
-      - Pricing is customized based on project requirements, with transparent breakdowns for development, maintenance, and additional features.
-
-      **How to Access:**
-      - Clients can initiate the engagement process through our website or by contacting.
-
-      **Documentation:**
-      - Comprehensive materials and documentation are provided to clients for managing and updating their websites.
-
-      **Dependencies:**
-      - Integration capabilities with third-party services and APIs are available based on client needs.
-
-      **Service Providers:**
-      - Our in-house team of experienced developers handles all aspects of the development process.
-
-      **Regulatory Compliance:**
-      - Our web development practices comply with industry standards and regulations, ensuring a secure and reliable online presence.
+      **Technologies We Use:**
+      - Frontend: React.js, Angular, Vue.js, Next.js, HTML5, CSS3, JavaScript (ES6+)
+      - Backend: Node.js, Python (Django, Flask), PHP (Laravel), Java (Spring Boot), Ruby on Rails
+      - Databases: MySQL, PostgreSQL, MongoDB, Redis, Firebase
+      - CMS: WordPress, Shopify, Webflow, Drupal
     button:
       link: /contact
-      text: Explore this Service
+      text: Get Started
+    reversed: false
+
+  - _bookshop_name: global/feature
+    title: Full-Stack Development
+    description: |
+      End-to-end development solutions from frontend to backend, ensuring seamless integration and optimal performance.
+
+      **Our Full-Stack Expertise:**
+      - **Frontend & Backend Integration**: Seamless connection between user interface and server logic
+      - **Microservices Architecture**: Scalable, modular application design
+      - **Authentication & Authorization**: Secure user management with JWT, OAuth
+      - **Real-time Applications**: WebSocket integration for live features
+      - **Database Design**: Optimized database schemas and query performance
+      - **DevOps Integration**: CI/CD pipelines, Docker, Kubernetes deployment
+
+      **Key Capabilities:**
+      - Complete application lifecycle management
+      - API-first development approach
+      - Cloud-native solutions (AWS, GCP, Azure)
+      - Security best practices (OWASP compliance)
+      - Automated testing and quality assurance
+    button:
+      link: /contact
+      text: Learn More
+    reversed: true
+
+  - _bookshop_name: global/feature
+    title: Mobile App Development
+    description: |
+      Native and cross-platform mobile applications that deliver exceptional user experiences on iOS and Android.
+
+      **Mobile Development Services:**
+      - **Native iOS Development**: Swift, Objective-C applications
+      - **Native Android Development**: Kotlin, Java applications
+      - **Cross-Platform Solutions**: React Native, Flutter development
+      - **Hybrid Apps**: Ionic, Cordova-based applications
+      - **App Maintenance**: Updates, bug fixes, and performance optimization
+
+      **What We Deliver:**
+      - App Store and Play Store optimization
+      - Push notification integration
+      - In-app purchases and payment gateways
+      - Social media integration
+      - Analytics and user tracking
+    button:
+      link: /contact
+      text: Discuss Your App
+    reversed: false
+
+  - _bookshop_name: global/feature
+    title: UI/UX Design & Development
+    description: |
+      Beautiful, intuitive user interfaces designed with user experience at the forefront.
+
+      **Design Services:**
+      - **User Research & Analysis**: Understanding your users' needs
+      - **Wireframing & Prototyping**: Figma, Adobe XD, Sketch designs
+      - **Visual Design**: Color theory, typography, component design
+      - **Design Systems**: Consistent, scalable design patterns
+      - **Usability Testing**: Ensuring optimal user experience
+
+      **Design Tools & Skills:**
+      - Figma, Adobe XD, Sketch
+      - Material UI, Bootstrap, Tailwind CSS
+      - Responsive design principles
+      - Accessibility (WCAG compliance)
+    button:
+      link: /contact
+      text: View Portfolio
+    reversed: true
+
+  - _bookshop_name: global/feature
+    title: DevOps & Cloud Services
+    description: |
+      Streamlined deployment, monitoring, and scaling of your applications in the cloud.
+
+      **DevOps Services:**
+      - **CI/CD Pipelines**: GitHub Actions, GitLab CI, Jenkins automation
+      - **Containerization**: Docker, Docker Compose, Kubernetes
+      - **Cloud Platforms**: AWS, Google Cloud, Microsoft Azure, DigitalOcean
+      - **Server Management**: Linux, NGINX, Apache configuration
+      - **Monitoring & Logging**: Application performance monitoring
+      - **Security**: SSL certificates, firewall configuration, security audits
+
+      **Infrastructure:**
+      - Scalable cloud architecture
+      - Load balancing and auto-scaling
+      - Database backup and recovery
+      - 24/7 monitoring and support
+    button:
+      link: /contact
+      text: Get Infrastructure Help
     reversed: false
 
   - _bookshop_name: global/testimonial

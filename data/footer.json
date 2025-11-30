@@ -44,15 +44,10 @@
                 {
                     "link": "/services",
                     "text": "Services"
-                }
-            ]
-        },
-        {
-            "title": "Community",
-            "links": [
+                },
                 {
-                    "link": "/blog-section",
-                    "text": "Blog"
+                    "link": "/skills",
+                    "text": "Services"
                 }
             ]
         },

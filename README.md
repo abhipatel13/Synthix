@@ -11,7 +11,6 @@ Synthix is a polished, marketing website template for NextJS. Browse through a [
 
 * Pre-built pages
 * Pre-styled components
-* Blog with pagination and category pages
 * Configurable navigation and footer
 * Multiple hero options 
 * Configurable theme colors
@@ -33,13 +32,7 @@ $ npm run dev
 
 ## Editing
 
-Synthix is set up for adding, updating and removing pages, components, posts, portfolio items, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
-
-### Posts
-
-* Add, update or remove a post in the *Posts* collection.
-* The **Staff Author** field links to members in the **Staff** collection.
-* Change the defaults when new posts are created in `content/posts/_defaults.md`.
+Synthix is set up for adding, updating and removing pages, components, portfolio items, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
 
 ### Company details
 

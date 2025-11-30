@@ -1,0 +1,32 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: CTA (Call to Action)
+  description: Call to action section with title, description, and button
+  icon: "arrow-right"
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: Ready to Get Started?
+  description: Let's discuss how we can help bring your project to life.
+  button:
+    link: /contact
+    text: Get In Touch
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown
+  button:
+    type: object
+    keys:
+      link:
+        type: text
+      text:
+        type: text
+
