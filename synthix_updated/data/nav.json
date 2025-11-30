@@ -1,0 +1,34 @@
+{
+	"logo": "/images/logo.svg",
+	"items": [
+		{
+			"link": "/",
+			"text": "Home"
+		},
+		{
+			"link": "/services/",
+			"text": "Services"
+		},
+		{
+			"link": "/about/",
+			"text": "About"
+		},
+		{
+			"link": "/blog-section/",
+			"text": "Blog"
+		},
+		{
+			"link": "/contact/",
+			"text": "Contact"
+		}
+	],
+	"button": {
+		"link": "https://api.whatsapp.com/send?phone=9924559503",
+		"text": "Message Now"
+	},
+	"_inputs": {
+	  "logo": {
+		"type": "image"
+	  }
+	}
+}

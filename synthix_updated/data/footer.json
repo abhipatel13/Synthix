@@ -1,0 +1,79 @@
+{
+    "logo": "/images/footer-logo.svg",
+    "logo_url": "/",
+    "copyright": "Synthix. All rights reserved.",
+    "social": [
+        {
+            "link": "https://www.facebook.com/mycompany",
+            "icon": "ph-facebook-logo",
+            "icon_alt": "Facebook"
+        },
+        {
+            "link": "https://www.instagram.com/mycompany",
+            "icon": "ph-instagram-logo",
+            "icon_alt": "Instagram"
+        },
+        {
+            "link": "https://www.twitter.com/mycompany",
+            "icon": "ph-twitter-logo",
+            "icon_alt": "Twitter"
+        },
+        {
+            "link": "https://www.github.com/mycompany",
+            "icon": "ph-github-logo",
+            "icon_alt": "GitHub"
+        },
+        {
+            "link": "https://www.youtube.com/mycompany",
+            "icon": "ph-youtube-logo",
+            "icon_alt": "YouTube"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Main Pages",
+            "links": [
+                {
+                    "link": "/",
+                    "text": "Home"
+                },
+                {
+                    "link": "/about",
+                    "text": "About"
+                },
+                {
+                    "link": "/services",
+                    "text": "Services"
+                }
+            ]
+        },
+        {
+            "title": "Community",
+            "links": [
+                {
+                    "link": "/blog-section",
+                    "text": "Blog"
+                }
+            ]
+        },
+        {
+            "title": "Company",
+            "links": [
+                {
+                    "link": "/contact",
+                    "text": "Contact"
+                },
+                {
+                    "link": "/privacy-section",
+                    "text": "Privacy Policy"
+                }
+            ]
+        }
+    ],
+    "_inputs": {
+      "logo": {
+        "type": "image"
+      }
+    }
+}
+
