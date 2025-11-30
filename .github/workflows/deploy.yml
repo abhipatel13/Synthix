@@ -1,0 +1,76 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Next.js site
+        run: npm run build
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: nextjs-build
+          path: out
+          retention-days: 7
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
+          cname: false
+
+      - name: Generate Deployment URL
+        id: deployment_url
+        if: github.ref == 'refs/heads/main'
+        run: |
+          REPO_NAME="${{ github.event.repository.name }}"
+          OWNER="${{ github.repository_owner }}"
+          URL="https://${OWNER}.github.io/${REPO_NAME}/"
+          echo "url=${URL}" >> $GITHUB_OUTPUT
+          echo "DEPLOYMENT_URL=${URL}" >> $GITHUB_ENV
+          echo "::notice::🌐 Website deployed to: ${URL}"
+          echo "::notice::📝 If you don't see the site, enable GitHub Pages in Settings > Pages"
+          echo "::set-output name=url::${URL}"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## 🚀 Deployment Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Build completed successfully!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📍 Next Steps:" >> $GITHUB_STEP_SUMMARY
+          echo "1. Go to your repository Settings" >> $GITHUB_STEP_SUMMARY
+          echo "2. Navigate to **Pages** section" >> $GITHUB_STEP_SUMMARY
+          echo "3. Under **Source**, select **Deploy from a branch**" >> $GITHUB_STEP_SUMMARY
+          echo "4. Select **gh-pages** branch and **/ (root)** folder" >> $GITHUB_STEP_SUMMARY
+          echo "5. Click **Save**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🌐 Your website will be available at:" >> $GITHUB_STEP_SUMMARY
+          echo "**https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/**" >> $GITHUB_STEP_SUMMARY
+
